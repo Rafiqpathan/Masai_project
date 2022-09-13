@@ -20,7 +20,7 @@ else if (number > 1) {
         }
     }
 
-    if (isPrime) {
+    if (isPrime==false) {
         console.log(`${number} is a prime number`);
     } else {
         console.log(`${number} is a not prime number`);
